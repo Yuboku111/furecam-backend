@@ -1,0 +1,13 @@
+[build]
+builder = "nixpacks"
+buildCommand = "yarn install && yarn build"
+
+[deploy]
+startCommand = "yarn start"
+healthcheckPath = "/admin/health"
+healthcheckTimeout = 300
+restartPolicyType = "always"
+
+[variables]
+PORT = "9000"
+NODE_ENV = "production"
