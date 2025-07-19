@@ -5,7 +5,7 @@
     "buildCommand": "yarn install --frozen-lockfile && yarn build"
   },
   "deploy": {
-    "startCommand": "yarn start",
+    "startCommand": "./start.sh",
     "healthcheckPath": "/health",
     "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE",
