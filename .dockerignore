@@ -1,0 +1,13 @@
+node_modules
+.env
+.env.local
+.env.production
+.medusa
+dist
+.git
+.gitignore
+README.md
+.vscode
+.idea
+npm-debug.log
+yarn-error.log
